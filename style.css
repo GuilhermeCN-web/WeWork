@@ -8,7 +8,6 @@
 
 body{
     height: 100vh;
-    display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(34, 165, 197);
@@ -20,10 +19,23 @@ body{
     height: 105px;
     background-color: white;
     padding: 28px 32px;
-    overflow: hidden;
     border-radius: 18px;
     font-family: 'Roboto', sans-serif;
     transition: 0.6s ease-out;
+    margin-top: 200px;
+}
+
+header{
+    background-color: rgb(255, 128, 0);
+    display: flex;
+}
+
+footer{
+    background-color: #181841;
+    color: #ffffff;
+    padding-left: 40px;
+    margin-top: 100px;
+    height: 100px;
 }
 
 .search-box{
